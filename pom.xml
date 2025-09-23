@@ -6,7 +6,7 @@
   <artifactId>app-mosaic</artifactId>
   <groupId>org.folio</groupId>
   <description>Application Descriptor Repository for the FOLIO Mosaic integration</description>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <properties>
     <project.name>app-mosaic</project.name>
@@ -95,6 +95,6 @@
     <url>https://github.com/folio-org/${project.name}</url>
     <connection>scm:git:git://github.com:folio-org/${project.name}.git</connection>
     <developerConnection>scm:git:git@github.com:folio-org/${project.name}.git</developerConnection>
-    <tag>v1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
