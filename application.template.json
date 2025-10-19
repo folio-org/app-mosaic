@@ -1,0 +1,27 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-acquisitions",
+      "version": "^1.0.0",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-mosaic",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_mosaic-settings",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ]
+}
