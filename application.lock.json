@@ -1,6 +1,6 @@
 {
   "name": "app-mosaic",
-  "version": "1.1.0-SNAPSHOT.100100000001019",
+  "version": "1.1.0-SNAPSHOT.100100000002810",
   "description": "Application Descriptor Repository for the FOLIO Mosaic integration",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_mosaic-settings",
-      "version": "1.0.1099000000000091"
+      "version": "1.0.1099000000000096"
     }
   ]
 }
