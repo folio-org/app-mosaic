@@ -23,6 +23,7 @@ update_config:
     bypass_actors:
       - actor_type: "Integration"
         bypass_mode: "always"
+
 branches:
   - snapshot:
       enabled: true
