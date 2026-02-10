@@ -7,7 +7,7 @@ update_config:
     - folio-org/kitfox
     - folio-org/thunderjet
   ruleset:
-    enabled: true
+    enabled: false
     pattern: "{0}-eureka-ci"
     required_checks:
       - context: "eureka-ci / validate-application"
