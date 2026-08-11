@@ -3,22 +3,16 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
-      "name": "app-acquisitions",
-      "version": "^1.0.0"
-    }
-  ],
-  "modules": [
-    {
-      "name": "mod-mosaic",
-      "version": "latest"
-    }
-  ],
-  "uiModules": [
-    {
-      "name": "folio_mosaic-settings",
-      "version": "latest"
-    }
-  ]
+  "dependencies": [  {
+    "name": "app-acquisitions",
+    "version": "^1.0.0"
+  }],
+  "modules": [  {
+    "name": "mod-mosaic",
+    "version": "1.0.1"
+  }],
+  "uiModules": [  {
+    "name": "folio_mosaic-settings",
+    "version": "1.0.0"
+  }]
 }
