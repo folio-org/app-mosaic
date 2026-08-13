@@ -1,12 +1,12 @@
 {
-  "id" : "app-mosaic-1.2.0-SNAPSHOT.100200000011379",
+  "id" : "app-mosaic-1.2.0-SNAPSHOT.100200000011529",
   "name" : "app-mosaic",
-  "version" : "1.2.0-SNAPSHOT.100200000011379",
+  "version" : "1.2.0-SNAPSHOT.100200000011529",
   "description" : "Application Descriptor Repository for the FOLIO Mosaic integration",
   "modules" : [ {
-    "id" : "mod-mosaic-2.0.0-SNAPSHOT.2060",
+    "id" : "mod-mosaic-2.0.0-SNAPSHOT.2083",
     "name" : "mod-mosaic",
-    "version" : "2.0.0-SNAPSHOT.2060"
+    "version" : "2.0.0-SNAPSHOT.2083"
   } ],
   "uiModules" : [ {
     "id" : "folio_mosaic-settings-1.1.1099000000000151",
@@ -19,7 +19,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-mosaic-2.0.0-SNAPSHOT.2060",
+    "id" : "mod-mosaic-2.0.0-SNAPSHOT.2083",
     "name" : "Folio mod-mosaic module",
     "requires" : [ {
       "id" : "orders",
@@ -104,7 +104,7 @@
       "description" : "Generate default Mosaic order template"
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-mosaic:2.0.0-SNAPSHOT.2060",
+      "dockerImage" : "folioci/mod-mosaic:2.0.0-SNAPSHOT.2083",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
